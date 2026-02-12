@@ -12,5 +12,21 @@ align-items: center;
 list-style-type: none;}
 
 .main-nav-header{display: flex;
-flex-direction: row;
+flex-direction: row;gap: 53px;
 }
+
+.navigation-text-header{color: #FFF;
+font-family: Inter;
+font-size: 14.9px;
+font-weight: 600;
+line-height: 14px; /* 93.96% */}
+
+.navigation-text-link-header{color: #FFF;
+font-family: Inter;
+font-size: 14.9px;text-decoration: none;
+font-weight: 600;
+line-height: 14px; /* 93.96% */}
+
+.empty-div{width: 109px;
+height: 33px;
+flex-shrink: 0;}
