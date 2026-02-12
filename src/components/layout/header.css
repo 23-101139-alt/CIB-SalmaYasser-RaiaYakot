@@ -2,7 +2,8 @@
 height: 67px;
 background-color: #1858A8;
 display: flex;
-justify-content: center;
+justify-content: center;position: fixed;
+padding: 0 150px;
 align-items: center;}
 
 .list-navigation-bar{display: flex;
@@ -21,11 +22,11 @@ font-size: 14.9px;
 font-weight: 600;
 line-height: 14px; /* 93.96% */}
 
-.navigation-text-link-header{color: #FFF;
+/* .navigation-text-link-header{color: #FFF;
 font-family: Inter;
 font-size: 14.9px;text-decoration: none;
 font-weight: 600;
-line-height: 14px; /* 93.96% */}
+line-height: 14px; } */
 
 .empty-div{width: 109px;
 height: 33px;
