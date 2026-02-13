@@ -88,7 +88,9 @@ const Home = () => {
                         <Sec7 />
                         <Sec7 />
                         <Sec7 />
-                    </section></section>
+                    </section>
+                      <Cta />
+                    </section>
 
                     <section className='sec-vertical'>
   <Title1sec3 />
@@ -97,7 +99,9 @@ const Home = () => {
                         <Sec8 />
                         <Sec8 />
                         <Sec8 />
-                    </section></section>
+                    </section>
+                    <Cta />
+                    </section>
 
                     <section className='sec-vertical'>
   <Title1sec3 />
