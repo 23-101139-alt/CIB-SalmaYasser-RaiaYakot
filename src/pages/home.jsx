@@ -68,6 +68,8 @@ const Home = () => {
   <section className='sec5-big-div'>
                                     <Bigtitlesec3 />
 <Sec5 />
+<Sec5 />
+<Sec5 />
 
   </section>
   <section className='center-div'>  <Cta /></section>
