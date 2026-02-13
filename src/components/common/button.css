@@ -12,4 +12,14 @@ font-family: Inter;border-color: transparent;
 font-size: 14.9px;
 font-style: normal;
 font-weight: 600;
-line-height: 14px; /* 93.96% */}
+line-height: 14px; /* 93.96% */
+  transition: all 0.3s ease,}
+
+
+.ctaa:hover{
+    background: #FFF;
+    color: #1858A8;
+    border-color:#1858A8 ;
+    border-width: 1px ;transform: translateY(-4px) ;
+
+}

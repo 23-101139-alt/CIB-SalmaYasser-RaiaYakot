@@ -3,7 +3,7 @@ height: 67px;
 background-color: #1858A8;
 display: flex;
 justify-content: center;position: fixed;
-padding: 0 150px;
+padding: 0 150px;z-index: 1111;
 align-items: center;}
 
 .list-navigation-bar{display: flex;
