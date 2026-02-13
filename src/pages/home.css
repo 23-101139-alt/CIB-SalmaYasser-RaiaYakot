@@ -98,3 +98,16 @@ line-height: 26px; }
     margin-top: 150px;
     margin-bottom: 20px;
 }
+.sec6-big-div{
+        width: 100%;
+    height: auto;
+display: flex;
+
+justify-content: center;
+align-items: center;
+    gap: 20px;
+    padding: 30px 400px;
+   background: #1858A8;
+    margin-bottom: 20px;
+}
+
