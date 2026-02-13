@@ -12,6 +12,7 @@ import Cardsec4 from '../components/common/cardsec4';
 import Cta from '../components/common/button';
 import Sec5 from '../components/common/sec5';
 import Sec6 from '../components/common/sec6';
+import Sec7 from '../components/common/sec7';
 // import pic3 from '../assets/pic3.png'
 // import pic4 from '../assets/pic4.png'
 
@@ -80,6 +81,11 @@ const Home = () => {
 </section>
   <Title1sec3 />
                     <Bigtitlesec3 />
+                    <section className='card-big-sec7'>
+                        <Sec7 />
+                        <Sec7 />
+                        <Sec7 />
+                    </section>
         </main>
         </>
      );
