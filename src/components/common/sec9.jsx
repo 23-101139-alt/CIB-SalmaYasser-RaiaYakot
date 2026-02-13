@@ -2,7 +2,7 @@ import React from 'react';
 import '../common/sec9.css'
 import pic10 from '../../assets/pic10.png'
 
-const Cardsec3 = () => {
+const Sec9 = () => {
     return ( 
         <div className='cardsec3'>
             <img src={pic10} alt='icon' ></img>
@@ -13,4 +13,4 @@ const Cardsec3 = () => {
      );
 }
  
-export default Cardsec3;
+export default Sec9;
