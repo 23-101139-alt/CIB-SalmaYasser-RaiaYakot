@@ -3,8 +3,15 @@ height: 67px;
 background-color: #1858A8;
 display: flex;
 justify-content: center;position: fixed;
-padding: 0 150px;z-index: 1111;
+padding: 0 150px;z-index: 1111;transition: all 0.3s ease;
 align-items: center;}
+
+
+.headerr:hover{
+background-color: #1d3766;;
+
+}
+
 
 .list-navigation-bar{display: flex;
 flex-direction: row;
