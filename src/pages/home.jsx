@@ -8,6 +8,8 @@ import Title1sec3 from '../components/common/smalltitlesec3'
 import Bigtitlesec3 from '../components/common/bigtitlesec3'
 import Cardsec3 from '../components/common/cardsec3'
 import Smalltitlesec4 from '../components/common/smalltitlesec4';
+import Cardsec4 from '../components/common/cardsec4';
+import Cta from '../components/common/button';
 // import pic3 from '../assets/pic3.png'
 // import pic4 from '../assets/pic4.png'
 
@@ -54,6 +56,16 @@ const Home = () => {
             </section>
                                 <Bigtitlesec3 />
 <Smalltitlesec4 />
+
+<section className='card-big-sec4'>
+    <Cardsec4 />
+    <Cardsec4 />
+    <Cardsec4 />
+  
+</section>
+<section className='center-div'>  <Cta /></section>
+  <section className=''></section>
+  
         </main>
         </>
      );

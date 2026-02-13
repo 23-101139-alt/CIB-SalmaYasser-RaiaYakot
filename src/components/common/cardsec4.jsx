@@ -8,8 +8,9 @@ const Cardsec4 = () => {
 < p className='titlesec4'>Buying and making a home</p>
 < p className='subtitlesec4'>Buying a home can be an emotional process, but itrsquo;s important to approach it logically </p>
 <p className='btnsec4'>Read more</p>
-
+    
 </div>
+
 
     </> );
 }
