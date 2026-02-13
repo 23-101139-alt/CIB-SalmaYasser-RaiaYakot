@@ -1,5 +1,5 @@
 .sec8-div{
-width: 20%;
+width: 30%;
 height: auto;
 display: flex;
 justify-content: center;
@@ -8,8 +8,8 @@ flex-direction: column;
 gap: 20px;
 }
 .sec8img{
-    width: 154px;
-height: 51px;
+    width: 84px;
+height: auto;
 }
 .sec8-text{
     color: #333;

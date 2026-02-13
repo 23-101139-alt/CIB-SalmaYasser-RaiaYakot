@@ -6,7 +6,8 @@ const Sec8 = () => {
     return ( <>
     <div className='sec8-div'>
         <img className='sec8img' src={imgsec8} alt="" />
-        <p className='sec8-text'>S&P/EGX ESG Index</p>
+        <p className='sec8-text'>Best Private Bank in Egypt</p>
+        <p className='sec8-subtext'>Global Finance - 2023</p>
     </div>
     
     </> );
