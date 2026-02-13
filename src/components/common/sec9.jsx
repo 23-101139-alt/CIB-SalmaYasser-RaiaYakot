@@ -4,7 +4,7 @@ import pic10 from '../../assets/pic10.png'
 
 const Sec9 = () => {
     return ( 
-        <div className='cardsec3'>
+        <div className='cardsec9'>
             <img src={pic10} alt='icon' ></img>
             < div className='sec9-div'>
             <p className='para-sec3-card'>Online </p>
