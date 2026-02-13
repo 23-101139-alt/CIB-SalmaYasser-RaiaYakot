@@ -13,14 +13,14 @@ align-items: center;
 list-style-type: none;}
 
 .main-nav-header{display: flex;
-flex-direction: row;gap: 53px;
+flex-direction: row;gap: 53px;width: 1146px;
 }
 
-.navigation-text-header{color: #FFF;
+/* .navigation-text-header{color: #FFF;
 font-family: Inter;
 font-size: 14.9px;
 font-weight: 600;
-line-height: 14px; /* 93.96% */}
+line-height: 14px;} */
 
 /* .navigation-text-link-header{color: #FFF;
 font-family: Inter;
@@ -28,6 +28,3 @@ font-size: 14.9px;text-decoration: none;
 font-weight: 600;
 line-height: 14px; } */
 
-.empty-div{width: 109px;
-height: 33px;
-flex-shrink: 0;}

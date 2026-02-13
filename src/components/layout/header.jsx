@@ -10,38 +10,14 @@ const Headerr = () => {
                 <img src={logo} alt='logo'></img>
                 <ul className='list-navigation-bar'>
                     <Navtext />
-                    <li className='navigation-text-header'>
-                 
-                     Investor Relations 
-                  
-                    </li>
-                     <li className='navigation-text-header'>
-                   
-                     Responsible Banking 
-                 
-                    </li>
-                    <li className='navigation-text-header'>
-                    
-                     Newsroom
-                   
-                    </li>
-                    <li className='navigation-text-header'>
-                    
-                     Learning Center
-                   
-                    </li>
-                    <li className='navigation-text-header'>
-                    
-                    Careers
-                   
-                    </li>
-                      <li className='navigation-text-header'>
-                    
-                    Others
-                    
-                    </li>
+                    <Navtext />
+                    <Navtext />
+                    <Navtext />
+                    <Navtext />
+                    <Navtext />
+                    <Navtext />
                 </ul>
-                <div className='empty-div'></div>
+               
             </nav>
         </header>
      );
