@@ -1,5 +1,5 @@
 .cardsec4{
-    width: 29%;
+    width:363px;
 height: 437px;
 display: flex;
 justify-content: flex-start;
@@ -23,7 +23,7 @@ font-family: Inter;
 font-size: 20.8px;
 font-style: normal;
 font-weight: 700;
-padding: 0 20px;
+padding: 0 27px 0 20px;
 
 line-height: 26px; /* 125% */ 
 }
@@ -33,7 +33,7 @@ font-family: Inter;
 font-size: 14.4px;
 font-style: normal;
 font-weight: 400;
-padding: 0 20px;
+padding: 0 34px 0 20px;
 
 line-height: 24px; /* 166.667% */
 }

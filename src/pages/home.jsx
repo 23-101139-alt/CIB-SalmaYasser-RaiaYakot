@@ -67,9 +67,11 @@ const Home = () => {
 <section className='center-div'>  <Cta /></section>
   <section className='sec5-big-div'>
                                     <Bigtitlesec3 />
+    <article className='container-cards-sec5'>
 <Sec5 />
 <Sec5 />
 <Sec5 />
+</article>
 
   </section>
   <section className='center-div'>  <Cta /></section>
