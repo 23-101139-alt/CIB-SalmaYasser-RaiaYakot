@@ -15,6 +15,8 @@ import Sec6 from '../components/common/sec6';
 import Sec7 from '../components/common/sec7';
 import Sec8 from '../components/common/sec8';
 import Sec9 from '../components/common/sec9';
+import Footer from '../components/layout/footer';
+
 // import pic3 from '../assets/pic3.png'
 // import pic4 from '../assets/pic4.png'
 
@@ -45,15 +47,9 @@ const Home = () => {
                     <Bigtitlesec3 />
                     <div className='container-row-sec3'>
                                 <Cardsec3 />
-                                {/* <div className='cardsec3'>
-                                    <img src={pic3} alt='icon' ></img>
-                                    <p className='para-sec3-card'>Apply for a card </p>
-                                </div>  */}
+                 
                                 <Cardsec3 />
-                                {/* <div className='cardsec3'>
-                                    <img src={pic4} alt='icon' ></img>
-                                    <p className='para-sec3-card'>Apply for a loan or overdraft </p>
-                                </div> */}
+          
                                  <Cardsec3 />
                     </div>
 
@@ -114,6 +110,11 @@ const Home = () => {
                     </section></section>
 
         </main>
+
+        <footer>
+                                    <Footer />
+        </footer>
+
         </>
      );
 }
