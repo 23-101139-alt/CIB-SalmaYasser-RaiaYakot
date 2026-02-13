@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import './home.css'
 import Headerr from '../components/layout/header'
 import Herosec from '../components/layout/hero'
@@ -7,6 +7,7 @@ import Navigationlinksec2 from '../components/common/navsec2'
 import Title1sec3 from '../components/common/smalltitlesec3'
 import Bigtitlesec3 from '../components/common/bigtitlesec3'
 import Cardsec3 from '../components/common/cardsec3'
+import Smalltitlesec4 from '../components/common/smalltitlesec4';
 // import pic3 from '../assets/pic3.png'
 // import pic4 from '../assets/pic4.png'
 
@@ -51,6 +52,8 @@ const Home = () => {
 
                 </div>
             </section>
+                                <Bigtitlesec3 />
+<Smalltitlesec4 />
         </main>
         </>
      );
