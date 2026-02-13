@@ -100,14 +100,15 @@ line-height: 26px; }
 }
 .sec6-big-div{
         width: 100%;
-    height: auto;
+    height: 560px;
 display: flex;
+    margin-top: 120px;
 
 justify-content: center;
 align-items: center;
     gap: 20px;
     padding: 30px 400px;
    background: #1858A8;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
 }
 

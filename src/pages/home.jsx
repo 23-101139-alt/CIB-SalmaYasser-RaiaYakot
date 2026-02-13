@@ -78,7 +78,8 @@ const Home = () => {
     <Sec6 />
 
 </section>
-  
+  <Title1sec3 />
+                    <Bigtitlesec3 />
         </main>
         </>
      );

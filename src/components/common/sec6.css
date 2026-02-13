@@ -5,21 +5,22 @@
     align-items: center;
     justify-content: flex-start;
     padding: 0 50px ;
-
+    margin-top: 100px;
+/* background-image: url(CIB-SalmaYasser-RaiaYakot/src/assets/pic7.png); */
 }
 .sec6-div{
 display: flex;
 width: 443px;
-height: 187px;
-padding-bottom: 3458.328px;
+height: auto;
+
 flex-direction: column;
 align-items: flex-start;
-gap: 27px;
+gap: 14px;
 border-radius: 4px;
 background: #FFF;
-       border-top: 5px solid #F58420;
+       border-top: 6px solid #F58420;
     box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.10);
-
+padding: 50px 0px 10px 50px;
 box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.10);
 }
 .sec6-title{
