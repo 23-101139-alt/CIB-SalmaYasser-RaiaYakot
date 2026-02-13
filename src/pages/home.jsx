@@ -79,13 +79,15 @@ const Home = () => {
     <Sec6 />
 
 </section>
+<section className='sec-vertical'>
   <Title1sec3 />
                     <Bigtitlesec3 />
                     <section className='card-big-sec7'>
                         <Sec7 />
                         <Sec7 />
                         <Sec7 />
-                    </section>
+                    </section></section>
+                    
         </main>
         </>
      );

@@ -112,7 +112,15 @@ line-height: 26px; }
     background: #1858A8;
     margin-bottom: 120px;
 }
-
+.sec-vertical{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
 .card-big-sec7{
     width: 100%;
     height: auto;
