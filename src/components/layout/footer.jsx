@@ -8,8 +8,12 @@ import pic13 from '../../assets/pic13.png'
 import pic14 from '../../assets/pic14.png'
 import pic15 from '../../assets/pic15.png'
 import pic16 from '../../assets/pic16.png'
-
-
+import pic17 from '../../assets/pic17.png'
+import pic18 from '../../assets/pic18.png'
+import pic19 from '../../assets/pic19.png'
+import pic20 from '../../assets/pic20.png'
+import pic21 from '../../assets/pic21.png'
+import pic22 from '../../assets/pic22.png'
 const Footer = () => {
     return (  
         <footer className='footer-big-container'>
@@ -54,15 +58,43 @@ const Footer = () => {
 
 
                 <nav className='part2-footer'>
-                <ul>
-                    
+                <ul className='list-part2-footer'>
+                            <Footernavs />
+                            <Footernavs />
+                            <Footernavs />
+                             <Footernavs />
                 </ul>
+                <ul className='pic-list-footer'>
+                    <li>
+                        <img src={pic17} alt='icon' ></img>
+                    </li>
+                    <li>
+                        <img src={pic18} alt='icon' ></img>
+                    </li>
+
+                    <li>
+                        <img src={pic19} alt='icon' ></img>
+                    </li>
+                                        <li>
+                        <img src={pic20} alt='icon' ></img>
+                    </li>
+                                                            <li>
+                        <img src={pic21} alt='icon' ></img>
+                    </li>
+                   <li>
+                        <img src={pic22} alt='icon' ></img>
+                    </li>
+
+
+                </ul>
+                </nav>
+
             </nav>
-
-
-
-            </nav>
-
+            <div className='lastpart-footer'>
+                <div className='container-copyrights'>
+                    <h3 className='copyrights'>Copyright © 2025 Commercial International Bank</h3>
+                </div>
+            </div>
         </footer>
     );
 }
