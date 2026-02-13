@@ -75,7 +75,7 @@ line-height: 26px; }
     justify-content: center;
     align-items: center;
     gap:20px ;
-    padding: 50px 100px ;
+    padding: 50px 350px ;
 }
 
 .center-div{
@@ -94,5 +94,6 @@ line-height: 26px; }
     align-items: center;
     justify-content: center;
     gap: 20px;
-    padding: 30px 100px;
+    padding: 30px 445px;
+    margin-top: 150px;
 }
