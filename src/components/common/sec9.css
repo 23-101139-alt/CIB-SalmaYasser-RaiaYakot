@@ -1,44 +1,48 @@
-.cardsec9{display: flex;
-display: flex;
-width: 363px;
-height: auto;
-padding: 50px 30px;
-align-items: flex-start;
-gap: 30px;
-flex-shrink: 0;
-border-radius: 6px;
-border-top: 1px solid rgba(231, 231, 231, 0.60);
-background: #FFF;
-box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.10);
-display: flex;align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;    
 
-padding-right: 25px;
- }
-
-.para-sec9-card{color: #1858A8;
-font-family: Inter;
-font-size: 20.8px;
-font-weight: 700;
-line-height: 26px; /* 125% */}
-
-.sec9-text{
- color: #333;
-font-family: Inter;
-font-size: 14.4px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 166.667% */   
+.cardsec9 {
+  width: 363px;
+  height: auto;
+  padding: 50px 25px 50px 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 30px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border-top: 1px solid var(--color-gray-light);
+  background: var(--color-white);
+  box-shadow: 0 1px 1px 2px var(--color-shadow-soft);
+  transition: transform 0.3s ease;
+  transform: scale(1);
 }
-.sec9-div{
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 10px;
 
+.cardsec9:hover {
+  transform: scale(1.03);
+}
 
+.para-sec9-card {
+  color: var(--color-blue);
+  font-family: Inter;
+  font-size: 20.8px;
+  font-weight: 700;
+  line-height: 26px;
+}
 
+.sec9-text {
+  color: var(--color-gray-dark);
+  font-family: Inter;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sec9-div {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
 }

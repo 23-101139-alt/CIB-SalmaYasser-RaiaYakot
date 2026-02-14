@@ -1,11 +1,13 @@
-.bigtitle-sec3{color: #F58420;
-font-family: Inter;
-font-size: 37.3px;
-font-weight: 700;text-align: center;  transition:all 0.3s ease;
-line-height: 48px; /* 128.686% */}
-
-.bigtitle-sec3:hover{
-  color: #1858A8;
+.bigtitle-sec3 {
+  color: var(--color-orange);
+  font-family: Inter;
+  font-size: 37.3px;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.3s ease;
+  line-height: 48px;
 }
 
-
+.bigtitle-sec3:hover {
+  color: var(--color-blue);
+}

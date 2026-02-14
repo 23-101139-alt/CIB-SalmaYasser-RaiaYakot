@@ -1,10 +1,11 @@
-.title-sec4{
-    color: #333;
-font-family: Inter;
-font-size: 23.1px;
-font-style: normal;
-font-weight: 400;
-line-height: 40px; /* 173.16% */
-text-align: center;
-margin-top: 16px;
+
+.title-sec4 {
+  color: var(--color-gray-dark);
+  font-family: Inter;
+  font-size: 23.1px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 16px;
 }

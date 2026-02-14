@@ -1,16 +1,21 @@
-.sec3-title1{color: #333;
-font-family: Inter;
-font-size: 12.2px;
-font-style: normal;
-font-weight: 500;
-line-height: 22px; /* 180.328% */
-letter-spacing: 5px;text-align: center;
-margin-bottom: 16px;transition: all 0.2s ease;
-transform: translateY(0);
-text-transform: uppercase;}
 
+.sec3-title1 {
+  color: var(--color-gray-dark);
+  font-family: Inter;
+  font-size: 12.2px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 16px;
+  transition: all 0.2s ease;
+  transform: translateY(0);
+  text-transform: uppercase;
+}
 
-.sec3-title1:hover{
-    color: #1858A8;;transform: translateY(8px);
-    font-size: 14px;
+.sec3-title1:hover {
+  color: var(--color-blue);
+  transform: translateY(8px);
+  font-size: 14px;
 }

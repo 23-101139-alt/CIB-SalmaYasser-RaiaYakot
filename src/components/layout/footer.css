@@ -1,77 +1,141 @@
-.footer-big-container{width: 100%;display: flex;transition: all 2s ease;
-flex-direction: column;}
-
-
-.footer-big-container:hover .first-nav-footer{    background-color: rgb(13, 41, 75) }
-.footer-big-container:hover .lastpart-footer{    background-color: rgb(255, 255, 255) }
-.footer-big-container:hover .copyrights{   color: rgb(70, 68, 68) }
-
-.first-nav-footer{width: 100%;height: 320.94px;
-background: #1D3766;transition: all 0.8s ease;
-padding: 40px 150px 25px ;position: relative;
-display: flex;flex-direction: column;align-items: center;
+.footer-big-container {
+  width: 100%;
+  display: flex;
+  transition: all 2s ease;
+  flex-direction: column;
 }
 
-.first-box-footer{    width: 1146px;display: flex;flex-direction: row;
-border-bottom: 1px solid #004A88;justify-content: space-between;;height: 198px;;}
+.footer-big-container:hover .first-nav-footer {
+  background-color: var(--color-blue-dark);
+}
 
-.main-navigations-footer{display: flex;
-flex-direction: row;}
+.footer-big-container:hover .lastpart-footer {
+  background-color: var(--color-white);
+}
 
-.list-container-footer{display: flex;
-flex-direction: column;width: 185px;
-list-style-type: none;}
+.footer-big-container:hover .copyrights {
+  color: var(--color-gray-footer);
+}
 
-.logo-footer{width: 109px;
-height: 33px;}
+.first-nav-footer {
+  width: 100%;
+  height: 320.94px;
+  background: var(--color-blue-footer);
+  transition: all 0.8s ease;
+  padding: 40px 150px 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-.footer-imgs-container{display: flex;
-flex-direction: row;
-gap: 33px;}
+.first-box-footer {
+  width: 1146px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid var(--color-blue-footer-dark);
+  justify-content: space-between;
+  height: 198px;
+}
 
-.footer-img-googleplay{width: 134px;
-height: 40px;}
+.main-navigations-footer {
+  display: flex;
+  flex-direction: row;
+}
 
-.footer-img-appstore{width: 118px;
-height: 40px;}
+.list-container-footer {
+  display: flex;
+  flex-direction: column;
+  width: 185px;
+  list-style-type: none;
+}
 
-.img-decoration1-footer{position: absolute;
-bottom: 0;display: flex;
-flex-direction: row;gap: 14px;
-left: 0;}
+.logo-footer {
+  width: 109px;
+  height: 33px;
+}
 
-.img-decoration-footer-2{position: absolute;
-top: 0;right: 0;flex-direction: row;
-gap: 11px;
-display: flex;}
+.footer-imgs-container {
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+}
 
-.part2-footer{display: flex;flex-direction: row;
-margin-top: 24px;margin-bottom: 24px;width: 735px;
-height: 57px;
-    width: 1146px;
-    padding-left: 208px;
-    justify-content: space-between;}
+.footer-img-googleplay {
+  width: 134px;
+  height: 40px;
+}
 
-.list-part2-footer{display: flex;flex-direction: row;gap: 35px;list-style-type: none;
-align-items: center;}
+.footer-img-appstore {
+  width: 118px;
+  height: 40px;
+}
 
-.pic-list-footer{display: flex;
-flex-direction: row;list-style-type: none;align-items: center;
-gap: 15px;}
+.img-decoration1-footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  left: 0;
+}
 
-.lastpart-footer{display: flex;
-width: 100%;transition: all 0.8s ease;
-padding: 19.5px 150px 20.49px 150px;
-justify-content: center;background: #004A88;
-align-items: center;}
+.img-decoration-footer-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  flex-direction: row;
+  gap: 11px;
+  display: flex;
+}
 
-.copyrights{color: #B8BABC;
-font-family: Inter;
-font-size: 12.6px;
-font-weight: 400;transition: all 0.8s ease;
-line-height: 32px; }
+.part2-footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  width: 1146px;
+  padding-left: 208px;
+  justify-content: space-between;
+}
 
+.list-part2-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  list-style-type: none;
+  align-items: center;
+}
 
-.container-copyrights{width: 1146px;
-display: flex;
-justify-content: flex-end;}
+.pic-list-footer {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  gap: 15px;
+}
+
+.lastpart-footer {
+  display: flex;
+  width: 100%;
+  transition: all 0.8s ease;
+  padding: 19.5px 150px 20.49px 150px;
+  justify-content: center;
+  background: var(--color-blue-footer-dark);
+  align-items: center;
+}
+
+.copyrights {
+  color: var(--color-gray-footer);
+  font-family: Inter;
+  font-size: 12.6px;
+  font-weight: 400;
+  transition: all 0.8s ease;
+  line-height: 32px;
+}
+
+.container-copyrights {
+  width: 1146px;
+  display: flex;
+  justify-content: flex-end;
+}
