@@ -1,21 +1,22 @@
 .cardsec5 {
-  width: 1015px;
+      width: 978px;
   height: auto;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px;
+  gap: 30px;
   padding: 30px;
   border-top: 1px solid var(--color-gray-light-strong);
   border-bottom: 1px solid var(--color-gray-light-strong);
   background: var(--color-white);
   transition: transform 0.3s ease;
   transform: scale(1);
+  cursor: pointer;
 }
 
 .cardsec5:hover {
   border: 1px solid var(--color-blue);
-  transform: scale(1.03);
+  transform: scale(1.04);
 }
 
 .imgsec5 {
@@ -41,7 +42,14 @@
   font-weight: 400;
   line-height: 24px;
 }
-
+.sec5-text2 {
+  color: var(--color-gray-dark);
+  font-family: Inter;
+  font-size: 14.4px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;width: 102%;
+}
 .sec5-title {
   color: var(--color-blue);
   font-family: Inter;

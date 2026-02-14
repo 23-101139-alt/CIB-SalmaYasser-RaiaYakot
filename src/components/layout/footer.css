@@ -6,7 +6,7 @@
 }
 
 .footer-big-container:hover .first-nav-footer {
-  background-color: var(--color-blue-dark);
+  background-color: var(--color-blue-dark-footer-hover);
 }
 
 .footer-big-container:hover .lastpart-footer {
@@ -14,7 +14,7 @@
 }
 
 .footer-big-container:hover .copyrights {
-  color: var(--color-gray-footer);
+  color: var(--color-gray-footer2);
 }
 
 .first-nav-footer {
@@ -22,7 +22,7 @@
   height: 320.94px;
   background: var(--color-blue-footer);
   transition: all 0.8s ease;
-  padding: 40px 150px 25px;
+  padding: 47px 150px 25px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -114,6 +114,7 @@
   align-items: center;
   gap: 15px;
 }
+.icons-footer{cursor: pointer;}
 
 .lastpart-footer {
   display: flex;

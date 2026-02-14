@@ -66,23 +66,23 @@ const Footer = () => {
                 </ul>
                 <ul className='pic-list-footer'>
                     <li>
-                        <img src={pic17} alt='icon' ></img>
+                        <img src={pic17} alt='icon'className='icons-footer' ></img>
                     </li>
                     <li>
-                        <img src={pic18} alt='icon' ></img>
+                        <img src={pic18} alt='icon' className='icons-footer' ></img>
                     </li>
 
                     <li>
-                        <img src={pic19} alt='icon' ></img>
+                        <img src={pic19} alt='icon'className='icons-footer' ></img>
                     </li>
                                         <li>
-                        <img src={pic20} alt='icon' ></img>
+                        <img src={pic20} alt='icon'className='icons-footer' ></img>
                     </li>
                                                             <li>
-                        <img src={pic21} alt='icon' ></img>
+                        <img src={pic21} alt='icon'className='icons-footer' ></img>
                     </li>
                    <li>
-                        <img src={pic22} alt='icon' ></img>
+                        <img src={pic22} alt='icon' className='icons-footer'></img>
                     </li>
 
 

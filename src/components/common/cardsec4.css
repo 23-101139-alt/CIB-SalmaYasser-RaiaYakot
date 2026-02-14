@@ -18,8 +18,7 @@
 
 .cardsec4:hover {
   border: 1px solid var(--color-blue);
-  width: 390px;
-  height: 436px;
+  transform: scale(1.04);
 }
 
 .imgsec4 {

@@ -17,8 +17,7 @@
 }
 
 .cardsec3:hover {
-  width: 380px;
-  height: 167px;
+ transform: scale(1.04);
   border: 1px solid var(--color-blue);
 }
 

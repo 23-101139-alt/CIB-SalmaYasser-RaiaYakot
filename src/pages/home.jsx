@@ -66,15 +66,17 @@ const Home = () => {
 </section>
 <section className='center-div'>  <Cta /></section>
   <section className='sec5-big-div'>
-                                    <Bigtitlesec3 />
-    <article className='container-cards-sec5'>
-<Sec5 />
-<Sec5 />
-<Sec5 />
-</article>
-
+                     <Bigtitlesec3 />
+                     <article className='sec5-container-vertically'>
+                        <article className='container-cards-sec5'>
+                        <Sec5 />
+                        <Sec5 />
+                        <Sec5 />
+                        </article>
+                        <Cta />
+                    </article>
   </section>
-  <section className='center-div'>  <Cta /></section>
+  {/* <section className='center-div'>  <Cta /></section> */}
 <section className='sec6-big-div'>
     <Sec6 />
 
@@ -90,7 +92,7 @@ const Home = () => {
                       <Cta />
                     </section>
 
-                    <section className='sec-vertical'>
+                    <section className='sec-vertical2'>
   <Title1sec3 />
                     <Bigtitlesec3 />
                     <section className='card-big-sec8'>
